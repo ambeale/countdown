@@ -8,6 +8,11 @@ div.countdown-box {
     padding-top: 70px;
 }
 
+div.ghlink {
+    text-align: right;
+    font-family: Georgia, serif;
+}
+
 h1.timer {
     color: white;
     font-family: "Lucida Console", Monaco, monospace;
