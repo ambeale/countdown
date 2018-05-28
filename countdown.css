@@ -1,8 +1,13 @@
 div.countdown-box {
     background-color: mediumslateblue;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    height: 200px;
 }
 
-timer {
+h1.timer {
     color: white;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
