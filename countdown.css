@@ -1,7 +1,7 @@
 div.countdown-box {
     background-color: mediumslateblue;
     text-align: center;
-    vertical-align: middle;
+    margin-top: 90px;
     width: 50%;
     height: 200px;
 }
