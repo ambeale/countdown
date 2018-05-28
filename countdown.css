@@ -13,3 +13,7 @@ h1.timer {
     font-family: "Lucida Console", Monaco, monospace;
 }
 
+h2.explanation {
+    color: whitesmoke;
+    font-family: "Lucida Console", Monaco, monospace;
+}
