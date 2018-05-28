@@ -6,6 +6,7 @@ div.countdown-box {
     margin: auto;
     margin-top: 100px;
     padding-top: 20px;
+    animation-delay: 1s;
 }
 
 div.ghlink {
@@ -17,11 +18,9 @@ div.ghlink {
 h1.timer {
     color: white;
     font-family: "Lucida Console", Monaco, monospace;
-    animation-delay: 2s;
 }
 
 h2.explanation {
     color: black;
     font-family: "Lucida Console", Monaco, monospace;
-    animation-delay: 2s;
 }
