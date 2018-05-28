@@ -1,0 +1,7 @@
+countdown-box {
+    background-color: mediumslateblue;
+}
+
+timer {
+    color: white;
+}
