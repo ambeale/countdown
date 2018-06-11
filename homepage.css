@@ -1,4 +1,22 @@
-div.countdown-box {
+section.container {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+}
+div.one {
+    width: 15%;
+    height: 200px;
+    background: red;
+    float: left;
+}
+div.two {
+    margin-left: 15%;
+    height: 200px;
+    background: orange;
+}
+
+div.box-one {
     background-color: tomato;
     text-align: center;
     width: 50%;
@@ -15,7 +33,7 @@ div.ghlink {
 }
 
 h1.question {
-    color: white;
+    color: black;
     font-family: "Lucida Console", Monaco, monospace;
 }
 
