@@ -1,11 +1,12 @@
 div.countdown-box {
-    background-color: tomato;
+    background-color: seashell;
     text-align: center;
     width: 50%;
     height: 50px;
     margin: auto;
     margin-top: 50px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 div.ghlink {
