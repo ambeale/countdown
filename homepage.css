@@ -1,17 +1,11 @@
-div {
-  line-height: 1.3em
-  vertical-align: top
-  margin-bottom: 1em
-  border-radius: 0.5em
-  padding: 1em
-  box-sizing: border-box
-  width: 45%
-}
-  
-div.ib {
-  background: salmon
-  border: solid red 1px
-  display: inline-block
+div.countdown-box {
+    background-color: tomato;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
 }
 
 div.ghlink {
@@ -20,12 +14,12 @@ div.ghlink {
     text-decoration: none;
 }
 
-h1 {
-    color: black;
+h1.question {
+    color: white;
     font-family: "Lucida Console", Monaco, monospace;
 }
 
-h2 {
+h2.options {
     color: black;
     font-family: "Lucida Console", Monaco, monospace;
     text-align: center;
