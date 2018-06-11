@@ -1,0 +1,25 @@
+div.countdown-box {
+    background-color: mediumslateblue;
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+div.ghlink {
+    text-align: right;
+    font-family: Georgia, serif;
+    text-decoration: none;
+}
+
+h1.timer {
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+h2.explanation {
+    color: black;
+    font-family: "Lucida Console", Monaco, monospace;
+}
