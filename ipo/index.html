@@ -13,5 +13,20 @@
 <!-- Display the countdown timer in an element -->
 <div class="countdown-box"> 
   <h2 class="explanation">Countdown to Opendoor's IPO:</h2> 
-  <img src="spongebob.gif" alt="Maybe someday" class="center">
+  <img src=img_url alt="Maybe someday" class="center">
 </div>
+
+<script>
+  var randnum = Math.floor(Math.random() * 10); 
+  var img_url;
+  
+  if (randnum < 3) {
+    img_url = "images/don't_count_on_it.gif";
+  } else if (randnum < 7) {
+    img_url = "images/outlook_not_good.gif";
+  } else {
+    img_url = "images/signs_point_to_yes.gif";
+  }
+</script>
+    
+  
