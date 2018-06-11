@@ -1,29 +1,17 @@
-section {
-    width: 80%;
-    height: 200px;
-    margin: auto;
-    padding: 10px;
+div {
+  line-height: 1.3em
+  vertical-align: top
+  margin-bottom: 1em
+  border-radius: 0.5em
+  padding: 1em
+  box-sizing: border-box
+  width: 45%
 }
-div.one {
-    width: 15%;
-    height: 200px;
-    background: red;
-    float: left;
-}
-div.two {
-    margin-left: 15%;
-    height: 200px;
-    background: orange;
-}
-
-div.box-one {
-    background-color: tomato;
-    text-align: center;
-    width: 50%;
-    height: 50px;
-    margin: auto;
-    margin-top: 50px;
-    padding-top: 20px;
+  
+div.ib {
+  background: salmon
+  border: solid red 1px
+  display: inline-block
 }
 
 div.ghlink {
@@ -32,12 +20,12 @@ div.ghlink {
     text-decoration: none;
 }
 
-h1.question {
+h1 {
     color: black;
     font-family: "Lucida Console", Monaco, monospace;
 }
 
-h2.options {
+h2 {
     color: black;
     font-family: "Lucida Console", Monaco, monospace;
     text-align: center;
