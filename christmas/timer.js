@@ -23,6 +23,17 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "Merry Christmas :)";
+    document.getElementById("countdown").innerHTML = "Too late :)";
+    document.getElementById("detail").innerHTML = "Merry Christmas!";
+  } else if (distance / (1000 * 60 * 60 * 24) > 60){
+    document.getElementById("detail").innerHTML = "Way too early for Christmas music!";
+  } else if (distance / (1000 * 60 * 60 * 24) > 30){
+    document.getElementById("detail").innerHTML = "How are the Black Friday deals this year?";
+  } else if (distance / (1000 * 60 * 60 * 24) > 10){
+    document.getElementById("detail").innerHTML = "Don't forget the wrapping paper!";
+  } else if (distance / (1000 * 60 * 60 * 24) > 2){
+    document.getElementById("detail").innerHTML = "Hope you've got Amazon Prime!";
+  } else {
+    document.getElementById("detail").innerHTML = "Challenge accepted";
   }
 }, 1000);
